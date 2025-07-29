@@ -1,0 +1,99 @@
+:root {
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400; */
+
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+.app-container {
+  padding: 0.5rem;
+  background-color: #FFFACD;
+  background-image: radial-gradient(circle, #ababab 2px, transparent 2px);
+  background-size: 40px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.app-header {
+  padding: 1rem;
+  border: 2px solid #000;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.app-header h5 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.app-footer {
+  padding: 0.25rem 0 0 0;
+  border-top: 2px solid #000;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+}
+
+.app-footer a {
+  text-decoration: none;
+  color: #1f1f1f;
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+.list-wrapper {
+  border: 2px solid #000;
+  padding: 2rem;
+  background: #fff;
+}
+
+.list {
+  list-style: none;
+  max-height: 500px;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.list li:nth-child(odd) {
+  background: #eee;
+}
+
+.list-user span {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
